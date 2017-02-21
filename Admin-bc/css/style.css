@@ -1,0 +1,92 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-color: #0288D1;
+}
+
+
+/*CLASS*/
+
+.centralizada{
+    max-width: 1280px;
+}
+
+.alignCenter{
+    text-align: center;
+}
+.alignLeft{
+    text-align: left;
+}
+.aligRight{
+    text-align: right;
+}
+.alignJustify{
+    text-align: justify;
+}
+
+/*id*/
+
+
+#dvPainel{
+    width: 100%;
+    min-height: 100vh; /*vh refere-se a altura do viewport. se a tela tem 900px de altura, 1vh terá 9px*/
+    background-color: #fff;
+}
+
+#ulMenu{
+    background-color:  #727272;
+}
+
+#ulMenu li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.125em;
+}
+
+#ulMenu li a{
+    color: #e5e5e5;
+    margin: 5px;
+    padding: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#ulMenu li a:hover{
+    background-color: #606060;
+}
+
+#dvRodape{
+    background-color: #727272;
+    color: #e5e5e5;
+}
+
+#ulRedeSociais li{
+    display: inline-block;
+}
+
+#dvLogin{
+    max-width: 450px;
+    width: 100%;
+    margin-top: 10%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+#dvLogin img{
+    padding-bottom: 60px;
+}
+
+#dvLogin label{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #727272;
+    font-size: 1.125em;
+}
+.icon{
+    width: 45px;
+}
